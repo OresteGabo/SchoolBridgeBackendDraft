@@ -1,8 +1,16 @@
 package com.example.demo.teacher;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.time.LocalDate;
 
+
+
+
+
 public class Teacher {
+
     private String id;
     private String name;
     private String email;
